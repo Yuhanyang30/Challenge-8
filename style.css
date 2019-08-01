@@ -9,11 +9,6 @@ body {
   
 }
 
-.faded {
-  margin-bottom: 100px; 
-  color: #ffffff; 
-}
-
 header.startup {
   background-position: center;
   background-image: url("header.jpg");
@@ -27,8 +22,9 @@ header.startup h1 {
   text-transform: uppercase;
 }
 
+/* Button */
 .btn {
-  background-color: #ff8000; /* Green */
+  background-color: #ff8000;
   border: none;
   border-radius: 300px;
   text-align: center;
@@ -52,6 +48,11 @@ header.startup h1 {
 .btn-primary:hover {
   background-color: #ff8000;
   padding: 10px 40px;
+}
+
+.faded {
+  margin-bottom: 100px; 
+  color: #ffffff; 
 }
 
 /* NAV */
